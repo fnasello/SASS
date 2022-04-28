@@ -1,0 +1,31 @@
+// TIPOGRAFIAS
+
+/*Esto es un fragmento*/
+
+@import"colores";
+
+h1 {
+    color: $colorUno;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    color: $colorDos;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    color: $colorTres;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+p {
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

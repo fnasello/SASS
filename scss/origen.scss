@@ -1,0 +1,96 @@
+/*Esto es un comenatirio de CSS puro*/
+
+// Esto es un comentario de línea en SCSS
+
+// Esto es ANIDAMIENTO
+/*ANIDAMIENTO*/
+// div {
+//     background-color: #fff;
+//     color: red;
+//     border: 1px solid pink;
+//     ul {
+//         list-style-type: disc;
+//         li {
+//            background-color: #008000;
+//           padding: 20px;
+//           border: 1px solid #0000ff;
+//           a {
+//            text-decoration: none;
+//         //    pseudoclase
+//             &:hover {
+//                 background-color: #ff0000;
+//             }
+//        }
+//       }
+//     }
+// }
+
+// IMPORTAR
+
+@import "tipografia";
+@import "colores";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Esto es ANIDAMIENTO
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    .menu-item {
+        //    background-color: #333;
+        //    margin: 0;
+        //   padding: 0;
+        //   display: inline;
+        //   justify-content: left;
+        float: left;
+
+        // pseudoclase
+        &:hover {
+            background-color: #48c9b0;
+        }
+
+        .enlace {
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.principal {
+    border: 1px solid #000;
+    padding: 20px;
+    .articulo {
+        padding: 20px;    
+    }
+}
+
+.seccion {
+    margin: 20px;
+    p {
+        padding: 15px;
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: #B2BABB;
+    padding: 20px;
+}

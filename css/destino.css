@@ -1,0 +1,83 @@
+/*Esto es un comenatirio de CSS puro*/
+/*ANIDAMIENTO*/
+/*Esto es un fragmento*/
+h1 {
+  color: #17202A;
+  font-size: 36px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgb(50, 50, 153);
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  color: rgb(0, 0, 100);
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+p {
+  color: #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu .menu-item {
+  float: left;
+}
+.menu .menu-item:hover {
+  background-color: #48c9b0;
+}
+.menu .menu-item .enlace {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.principal {
+  border: 1px solid #000;
+  padding: 20px;
+}
+.principal .articulo {
+  padding: 20px;
+}
+
+.seccion {
+  margin: 20px;
+}
+.seccion p {
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #B2BABB;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=destino.css.map */
